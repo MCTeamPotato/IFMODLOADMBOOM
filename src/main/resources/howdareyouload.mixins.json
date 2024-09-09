@@ -4,10 +4,10 @@
   "package": "com.teampotato.howdareyouload.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "howdareyouload.refmap.json",
+  "mixins": [
+    "MixinMinecraft"
+  ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "client": [
-    "MixinMinecraft"
-  ]
+  }
 }
